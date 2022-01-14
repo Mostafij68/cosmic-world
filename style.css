@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    top: 0;
+}
+/* ================
+    common-style
+=================== */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1200px;
+}
