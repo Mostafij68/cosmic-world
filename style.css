@@ -10,4 +10,97 @@ body{
 }
 .container{
     width: 1200px;
+    margin: 0 auto;
+}
+.default-color{
+    color: #FF008E;
+}
+.default-btn {
+    text-decoration: none;
+    background: #ff008e;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFF;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 0px 7px 0px 0px #aa0560;
+    position: relative;
+    transition: .1s;
+}
+.default-btn:active{
+    top: 5px;
+    box-shadow: 0px 2px 0px 0px #aa0560;
+}
+/* ===============
+    navbar
+================== */
+
+.nav-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.logo{
+}
+.primary-menu{}
+.primary-menu ul{
+    display: flex;
+    list-style: none;
+}
+.primary-menu ul li{
+    padding: 0 10px;
+    border-left: 2px solid #FF008E;
+}
+.primary-menu ul li:first-child{
+    border-left: none;
+}
+
+.primary-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 10px;
+    transition: .3s;
+}
+.primary-menu ul li a:hover{
+    color: #FF008E;
+}
+
+/*===============
+    banner-area 
+=================*/
+.banner-area{
+    background-image: url(./images/cloud.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    background-color: rgba(0, 0, 0,.5);
+    background-blend-mode: overlay;
+}
+.banner-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 570px;
+}
+.bc-left{}
+.bc-left h1{
+    color: #fff;
+    font-size: 45px;
+}
+.bc-left p{
+    color: #fff;
+    line-height: 1.5em;
+    font-size: 18px;
+    margin: 20px 0;
+}
+.bc-right{
+    margin-bottom: -52px;
+}
+.bc-right img{
+    max-width: 100%;
 }
